@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-custom-by-amril",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -43,6 +43,7 @@
     "@ckeditor/ckeditor5-media-embed": "^24.0.0",
     "@ckeditor/ckeditor5-paragraph": "^24.0.0",
     "@ckeditor/ckeditor5-paste-from-office": "^24.0.0",
+    "@ckeditor/ckeditor5-special-characters": "^24.0.0",
     "@ckeditor/ckeditor5-table": "^24.0.0",
     "@ckeditor/ckeditor5-typing": "^24.0.0",
     "@wiris/mathtype-ckeditor5": "^7.24.4",
