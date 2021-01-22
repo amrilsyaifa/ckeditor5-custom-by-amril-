@@ -3,7 +3,7 @@ import ClassicEditorBase from "@ckeditor/ckeditor5-editor-classic/src/classicedi
 import Essentials from "@ckeditor/ckeditor5-essentials/src/essentials";
 import UploadAdapter from "@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter";
 import Autoformat from "@ckeditor/ckeditor5-autoformat/src/autoformat";
-import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+import Alignment from "@ckeditor/ckeditor5-alignment/src/alignment";
 import Bold from "@ckeditor/ckeditor5-basic-styles/src/bold";
 import Italic from "@ckeditor/ckeditor5-basic-styles/src/italic";
 import BlockQuote from "@ckeditor/ckeditor5-block-quote/src/blockquote";
@@ -34,19 +34,19 @@ import TableToolbar from "@ckeditor/ckeditor5-table/src/tabletoolbar";
 import TextTransformation from "@ckeditor/ckeditor5-typing/src/texttransformation";
 import SpecialCharacters from "@ckeditor/ckeditor5-special-characters/src/specialcharacters";
 import SpecialCharactersEssentials from "@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials";
-import SpecialCharactersMathematical from '@ckeditor/ckeditor5-special-characters/src/specialcharactersmathematical';
-import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency';
+import SpecialCharactersMathematical from "@ckeditor/ckeditor5-special-characters/src/specialcharactersmathematical";
+import SpecialCharactersCurrency from "@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency";
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
-function SpecialCharactersEmoji( editor ) {
-    editor.plugins.get( 'SpecialCharacters' ).addItems( 'Emoji', [
-        { title: 'smiley face', character: '😊' },
-        { title: 'rocket', character: '🚀' },
-        { title: 'wind blowing face', character: '🌬️' },
-        { title: 'floppy disk', character: '💾' },
-        { title: 'heart', character: '❤️' }
-    ] );
+function SpecialCharactersEmoji(editor) {
+  editor.plugins.get("SpecialCharacters").addItems("Emoji", [
+    { title: "smiley face", character: "😊" },
+    { title: "rocket", character: "🚀" },
+    { title: "wind blowing face", character: "🌬️" },
+    { title: "floppy disk", character: "💾" },
+    { title: "heart", character: "❤️" },
+  ]);
 }
 
 // Plugins to include in the build.
@@ -86,7 +86,7 @@ ClassicEditor.builtinPlugins = [
   SpecialCharacters,
   SpecialCharactersEssentials,
   SpecialCharactersEmoji,
-  SpecialCharactersCurrency, 
+  SpecialCharactersCurrency,
   SpecialCharactersMathematical,
 ];
 
@@ -171,7 +171,29 @@ ClassicEditor.defaultConfig = {
     supportAllValues: true,
   },
   fontSize: {
-    options: [9, 11, 13, "default", 17, 19, 21],
+    options: [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31,
+      33,
+      35,
+      36,
+    ],
   },
   fontColor: {
     colors: [
