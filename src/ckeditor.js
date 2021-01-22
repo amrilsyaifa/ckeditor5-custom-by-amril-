@@ -218,6 +218,10 @@ ClassicEditor.defaultConfig = {
         label: "Light grey",
       },
       {
+        color: "#455A64",
+        label: "Fiord",
+      },
+      {
         color: "hsl(0, 0%, 100%)",
         label: "White",
         hasBorder: true,
