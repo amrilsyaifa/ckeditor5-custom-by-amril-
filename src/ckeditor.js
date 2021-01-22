@@ -210,8 +210,8 @@ ClassicEditor.defaultConfig = {
         label: "Grey",
       },
       {
-        color: "hsl(210, 29%, 36%)",
-        label: "Cerulean",
+        color: "#425D78",
+        label: "Blue Bayoux",
       },
       {
         color: "hsl(0, 0%, 90%)",
